@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+
+:root {
+  --sb: space-between;
+  --b-box: border-box;
+
+  /* Palette */
+
+  /* Neutral: Azul */
+  --approve-100: #f2f4ff;
+  --approve-200: #bbc8ff;
+  --approve-300: #82a1fd30;
+  --approve-400: #4a7ff730;
+  --approve-500: #1363ed;
+  --approve-600: #0653bb30;
+  --approve-700: #01438a30;
+  --approve-800: #00305830;
+  --approve-900: #001726;
+
+  /* Danger: Devilish */
+  --danger-100: #fff7f2;
+  --danger-200: #ffd2be;
+  --danger-300: #fba58930;
+  --danger-400: #f2715330;
+  --danger-500: #e0391f;
+  --danger-600: #b2170b30;
+  --danger-700: #83040230;
+  --danger-800: #55000030;
+  --danger-900: #260000;
+
+  /* Warning: Thick Yellow */
+  --warning-100: #fefff2;
+  --warning-200: #fbffb9;
+  --warning-300: #fdfd8030;
+  --warning-400: #f7ed4630;
+  --warning-500: #edd30e;
+  --warning-600: #bb9b0530;
+  --warning-700: #8a6a0130;
+  --warning-800: #583e0030;
+  --warning-900: #261900;
+
+  /* Success: Traffic Green */
+  --success-100: #f2fff3;
+  --success-200: #c1ffc0;
+  --success-300: #96fd8d30;
+  --success-400: #70fa5930;
+  --success-500: #4ff227;
+  --success-600: #3bbf0d30;
+  --success-700: #2e8c0330;
+  --success-800: #22590030;
+  --success-900: #112600;
+
+  /* Primary: Pheromone Purple */
+  --primary-100: #fff2ff;
+  --primary-200: #fcc0fe;
+  --primary-300: #ec8af5;
+  --primary-400: #c952dd;
+  --primary-500: #911fad;
+  --primary-600: #6a0b8c;
+  --primary-700: #49026a;
+  --primary-800: #2d0048;
+  --primary-900: #160026;
+}
+
+* {
+  font-family: "lexend", sans-serif;
+}
+
+/* Button hover :) */
+button:hover {
+  border: 1px solid #ffffff30 !important;
+}
