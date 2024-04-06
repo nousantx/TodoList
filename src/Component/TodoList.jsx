@@ -146,14 +146,17 @@ function TodoList() {
             />
           </div>
 
-          <div className="display-flex gap-1rem ai-center jc-end mt-1rem">
-            <select onChange={(e) => setPriority(e.target.value)}>
+          <div className="display-flex ai-center jc-end mt-1rem">
+            <label for="priority" className="center bg-none">
+              <span className="ms-round fs-16px">list_alt</span>
+            </label>
+            <select onChange={(e) => setPriority(e.target.value)} id="priority">
               <option value="Low">Low</option>
               <option value="Medium">Medium</option>
               <option value="High">High</option>
             </select>
 
-            <div className="bg-[primary-700] w-1px h-20px br-2rem"></div>
+            <div className="bg-[primary-700] w-1px h-20px br-2rem mh-1rem"></div>
             <button className="btn fs-14px gap-4px" onClick={addTodo}>
               Add
               <span className="ms-round fs-inherit">add</span>
