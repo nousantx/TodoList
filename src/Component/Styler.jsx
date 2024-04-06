@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useLayoutEffect } from "react";
 import tenoxui, { defineProps, makeStyles } from "tenoxui";
 
 const styler = makeStyles({
@@ -62,7 +62,7 @@ const Styler = () => {
   tenoxui();
 };
 const useStyler = () => {
-  useEffect(() => {
+  useLayoutEffect(() => {
     Styler();
   }, []);
 };

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useLayoutEffect } from "react";
 import { Styler } from "./Styler";
 
 function TodoList() {
@@ -12,7 +12,7 @@ function TodoList() {
   const [dragOverIndex, setDragOverIndex] = useState(null);
   const [todoDescription, setTodoDescription] = useState([]);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     Styler();
   }, [todos, editIndex]);
 
